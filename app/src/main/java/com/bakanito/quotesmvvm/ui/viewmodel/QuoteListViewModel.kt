@@ -1,0 +1,9 @@
+package com.bakanito.quotesmvvm.ui.viewmodel
+
+import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+
+@HiltViewModel
+class QuoteListViewModel @Inject constructor(): ViewModel() {
+}
